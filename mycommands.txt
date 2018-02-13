@@ -1,0 +1,206 @@
+    1  ifconfig
+    2  clear
+    3  hostname puppet
+    4  echo puppet > /etc/hostname
+    5  exec bash
+    6  ifconfig
+    7  clear
+    8  nano myfile.txt
+    9  clear
+   10  nano /etc/hosts
+   11  ping node1
+   12  dhclient -v
+   13  clear
+   14  ping node1
+   15  exec bash
+   16  clear
+   17  service puppetserver status
+   18  clear
+   19  puppet resource service puppetserver ensure=running
+   20  ls
+   21  clear
+   22  cd /etc/puppetlabs/
+   23  ls
+   24  cd code/
+   25  ls
+   26  clear
+   27  ls
+   28  cd modules/
+   29  ls
+   30  clear
+   31  ls
+   32  cd ..
+   33  ls
+   34  clear
+   35  ls
+   36  clear
+   37  ls
+   38  cd environments/
+   39  ls
+   40  clear
+   41  cd production/
+   42  ls
+   43  cd manifests/
+   44  ls
+   45  clear
+   46  nano site.pp 
+   47  ls
+   48  cat site.pp 
+   49  clear
+   50  nano site.pp 
+   51  vl;rst
+   52  vlrst
+   53  clear
+   54  puppet cert list
+   55  puppet cert list -a
+   56  ls
+   57  clear
+   58  nano site.pp 
+   59  cd ..
+   60  clear
+   61  ls
+   62  cd ..
+   63  ls
+   64  cd ..
+   65  ls
+   66  cd modules/
+   67  ls
+   68  clear
+   69  ls
+   70  puppet module help
+   71  puppet help module
+   72  clear
+   73  puppet module generate node1
+   74  clear
+   75  puppet help module generate
+   76  puppet module generate --skip-interview node1
+   77  puppet module generate --skip-interview root-node1
+   78  clear
+   79  ls
+   80  cd node1/
+   81  ls
+   82  cd manifests/
+   83  ls
+   84  clear
+   85  ls
+   86  cat init.pp 
+   87  clear
+   88  ls
+   89  rm init.pp 
+   90  ls
+   91  clear
+   92  nano init.pp
+   93  nano users.pp
+   94  ls
+   95  nano init.pp 
+   96  cd ..
+   97  ls
+   98  cd ..
+   99  ls
+  100  clear
+  101  ls
+  102  cd ..
+  103  ls
+  104  clear
+  105  ls
+  106  cd environments/
+  107  ls
+  108  cd production/
+  109  ls
+  110  cd manifests/
+  111  nano site.pp 
+  112  cd ..
+  113  ls
+  114  cd ..
+  115  ls
+  116  clear
+  117  ls
+  118  cd ..
+  119  ls
+  120  clear
+  121  ls
+  122  cd modules/
+  123  ls
+  124  cd node1/
+  125  ls
+  126  cd manifests/
+  127  ls
+  128  clear
+  129  cat init.pp 
+  130  nano init.pp 
+  131  cat users.pp 
+  132  clear
+  133  history
+  134  clear
+  135  ls
+  136  cat init.pp 
+  137  cat users.pp 
+  138  clear
+  139  ls
+  140  cat init.pp 
+  141  cat users.pp 
+  142  ls
+  143  clear
+  144  ls
+  145  hostname master
+  146  echo master > /etc/hostname
+  147  exec bash
+  148  clear
+  149  ls
+  150  cd /etc/puppetlabs/code/environments/production/manifests/
+  151  ls
+  152  nano site.pp 
+  153  ls
+  154  nano site.pp 
+  155  clear
+  156  ls
+  157  nano site.pp 
+  158  clear
+  159  nano site.pp 
+  160  ls
+  161  nano site.pp 
+  162  clear
+  163  ls
+  164  clear
+  165  ls
+  166  cd ..
+  167  ls
+  168  cd ..
+  169  ls
+  170  cd modules/
+  171  ls
+  172  clear
+  173  ls
+  174  cd variable/
+  175  ls
+  176  cd manifests/
+  177  ls
+  178  clear
+  179  ls
+  180  nano init.pp 
+  181  cd ..
+  182  cd .
+  183  cd ..
+  184  ls
+  185  clear
+  186  ls
+  187  cd ..
+  188  ls
+  189  cd environments/
+  190  cd production/manifests/
+  191  ls
+  192  nano site.pp 
+  193  cat site.pp 
+  194  clear
+  195  nano site.pp 
+  196  ls
+  197  cd ..
+  198  ls
+  199  clear
+  200  ls
+  201  clear
+  202  ls
+  203  cd ..
+  204  clear
+  205  ls
+  206  history > mycommands.txt

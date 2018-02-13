@@ -1,0 +1,18 @@
+{
+  "name": "root-variable",
+  "version": "0.1.0",
+  "author": "himanshu",
+  "summary": "this is used for class variable overriding",
+  "license": "apache-2.2",
+  "source": "https://github.com/rathihimanshu/mynewmodule",
+  "project_page": "read the readme.txt file inside git repo",
+  "issues_url": "nowhere",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0"
+    }
+  ],
+  "data_provider": null
+}
+
